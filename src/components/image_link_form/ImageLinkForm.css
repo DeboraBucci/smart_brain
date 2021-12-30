@@ -1,0 +1,57 @@
+.form {
+  width: 700px;
+  background: linear-gradient(45deg, rgb(59, 59, 59) 45px, transparent 45px)
+      64px 64px / 128px 128px,
+    linear-gradient(
+      45deg,
+      rgb(59, 59, 59) 45px,
+      transparent 45px,
+      transparent 91px,
+      rgb(158, 158, 158) 91px,
+      rgb(158, 158, 158) 135px,
+      transparent 135px
+    ),
+    linear-gradient(
+        -45deg,
+        rgb(59, 59, 59) 23px,
+        transparent 23px,
+        transparent 68px,
+        rgb(59, 59, 59) 68px,
+        rgb(59, 59, 59) 113px,
+        transparent 113px,
+        transparent 158px,
+        rgb(59, 59, 59) 158px
+      )
+      rgb(158, 158, 158);
+  --darkreader-inline-bgimage: linear-gradient(
+      45deg,
+      #3d6157 45px,
+      rgba(0, 0, 0, 0) 45px
+    ),
+    linear-gradient(
+      45deg,
+      #3d6157 45px,
+      rgba(0, 0, 0, 0) 45px,
+      rgba(0, 0, 0, 0) 91px,
+      #464f18 91px,
+      #464f18 135px,
+      rgba(0, 0, 0, 0) 135px
+    ),
+    linear-gradient(
+      -45deg,
+      #3d6157 23px,
+      rgba(0, 0, 0, 0) 23px,
+      rgba(0, 0, 0, 0) 68px,
+      #3d6157 68px,
+      #3d6157 113px,
+      rgba(0, 0, 0, 0) 113px,
+      rgba(0, 0, 0, 0) 158px,
+      #3d6157 158px
+    );
+  --darkreader-inline-bgcolor: #464f18;
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+}
