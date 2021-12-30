@@ -10,8 +10,8 @@ const Logo = () => {
       <Tilt
         className="Tilt br2 shadow-2"
         style={{
-          height: "150px",
-          width: "150px",
+          height: "130px",
+          width: "130px",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
