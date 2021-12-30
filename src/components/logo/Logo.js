@@ -1,5 +1,7 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
+import brain from "./brain.png";
+
 import "./Logo.css";
 
 const Logo = () => {
@@ -12,7 +14,10 @@ const Logo = () => {
           width: "150px",
         }}
       >
-        <div></div>
+        <div>
+          <img alt="logo" src={brain} />
+          {/*https://icons8.com/icon/48282/brain*/}
+        </div>
       </Tilt>
     </div>
   );
