@@ -12,6 +12,9 @@ const Logo = () => {
         style={{
           height: "150px",
           width: "150px",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
         }}
       >
         <div>
