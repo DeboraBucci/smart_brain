@@ -62,7 +62,7 @@ const opt = {
     number: {
       density: {
         enable: true,
-        area: 800,
+        area: 500,
       },
       value: 80,
     },
@@ -74,7 +74,7 @@ const opt = {
     },
     size: {
       random: true,
-      value: 3,
+      value: 2,
     },
   },
   detectRetina: true,
