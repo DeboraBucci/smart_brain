@@ -6,6 +6,7 @@ import Logo from "./components/logo/Logo";
 import ImageLinkForm from "./components/image_link_form/ImageLinkForm";
 import Rank from "./components/rank/Rank";
 import Particles from "react-tsparticles";
+import FaceRecognition from "./components/face_recognition/FaceRecognition.js";
 
 const opt = {
   fpsLimit: 60,
@@ -107,6 +108,7 @@ class App extends Component {
           onInputChange={this.onInputChange}
           onSubmit={this.onButtonSubmit}
         />
+        <FaceRecognition />
       </div>
     );
   }
