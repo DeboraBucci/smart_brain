@@ -57,13 +57,13 @@ const opt = {
       enable: true,
       outMode: "bounce",
       random: false,
-      speed: 2,
+      speed: 1,
       straight: false,
     },
     number: {
       density: {
         enable: true,
-        area: 500,
+        area: 1500,
       },
       value: 80,
     },
@@ -75,7 +75,7 @@ const opt = {
     },
     size: {
       random: true,
-      value: 2,
+      value: 3,
     },
   },
   detectRetina: true,

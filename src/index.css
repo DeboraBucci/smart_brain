@@ -5,7 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(89deg, #ff5edf 0%, #04c8de 100%);
+  background-image: linear-gradient(
+    to bottom,
+    #4a4969 0%,
+    #7072ab 50%,
+    #cd82a0 100%
+  );
+  height: 100vh;
+  width: 100vw;
 }
 
 button {
