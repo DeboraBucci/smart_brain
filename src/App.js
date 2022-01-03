@@ -6,6 +6,7 @@ import Logo from "./components/logo/Logo";
 import ImageLinkForm from "./components/image_link_form/ImageLinkForm";
 import Rank from "./components/rank/Rank";
 import Signin from "./components/signin/Signin";
+import Register from "./components/register/Register";
 import Particles from "react-tsparticles";
 import FaceRecognition from "./components/face_recognition/FaceRecognition.js";
 
@@ -112,9 +113,7 @@ class App extends Component {
 
         <Navigation onRouteChange={this.onRouteChange} />
 
-        {this.state.route === "signin" ? (
-          <Signin onRouteChange={this.onRouteChange} />
-        ) : (
+        {this.state.route === "home" ? (
           <div>
             <Logo />
             <Rank />
@@ -123,6 +122,10 @@ class App extends Component {
               onSubmit={this.onButtonSubmit}
             />
           </div>
+        ) : this.state.route === "signin" ? (
+          <Signin onRouteChange={this.onRouteChange} />
+        ) : (
+          <Register onRouteChange={this.onRouteChange} />
         )}
 
         <FaceRecognition imageUrl={this.state.imageUrl} />
