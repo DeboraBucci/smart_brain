@@ -7,11 +7,11 @@ const Signin = ({ onRouteChange }) => {
       style={{ minWidth: "400px", background: "rgba(255, 255, 255, 0.2)" }}
     >
       <main className="pa4 black-80">
-        <form className="measure">
+        <div className="measure">
           <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
             <legend className="f1 fw6 ph0 mh0">Sign In</legend>
             <div className="mt3">
-              <label className="db fw6 lh-copy f6" for="email-address">
+              <label className="db fw6 lh-copy f6" htmlFor="email-address">
                 Email
               </label>
               <input
@@ -22,7 +22,7 @@ const Signin = ({ onRouteChange }) => {
               />
             </div>
             <div className="mv3">
-              <label className="db fw6 lh-copy f6" for="password">
+              <label className="db fw6 lh-copy f6" htmlFor="password">
                 Password
               </label>
               <input
@@ -50,7 +50,7 @@ const Signin = ({ onRouteChange }) => {
               Register
             </p>
           </div>
-        </form>
+        </div>
       </main>
     </article>
   );
