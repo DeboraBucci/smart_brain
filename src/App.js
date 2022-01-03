@@ -105,6 +105,7 @@ class App extends Component {
       <div className="App">
         <Particles className="particles" id="tsparticles" options={opt} />
         <Navigation />
+        <Signin />
         <Logo />
         <Rank />
         <ImageLinkForm
