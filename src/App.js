@@ -5,6 +5,7 @@ import Navigation from "./components/navigation/Navigation";
 import Logo from "./components/logo/Logo";
 import ImageLinkForm from "./components/image_link_form/ImageLinkForm";
 import Rank from "./components/rank/Rank";
+import Signin from "./components/signin/Signin";
 import Particles from "react-tsparticles";
 import FaceRecognition from "./components/face_recognition/FaceRecognition.js";
 
