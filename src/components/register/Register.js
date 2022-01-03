@@ -4,7 +4,7 @@ const Register = ({ onRouteChange }) => {
   return (
     <article
       className="br3 ba  b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center"
-      style={{ minWidth: "400px" }}
+      style={{ minWidth: "400px", background: "rgba(255, 255, 255, 0.2)" }}
     >
       <main className="pa4 black-80">
         <form className="measure">
