@@ -22,8 +22,20 @@ class Register extends React.Component {
     this.setState({ password: event.target.value });
   };
 
+  onSubmitSignIn = () => {
+    fetch("http://localhost:3001/register", {
+      method: "post",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email: this.state.email,
+        password: this.state.password,
+        name: this.state.name,
+      }),
+    });
+  };
+
   render() {
-    const { onRouteChange, onNameChange, onEmailChange, onPasswordChange } =
+    const { onSubmitSignIn, onNameChange, onEmailChange, onPasswordChange } =
       this.props;
     return (
       <article
@@ -71,7 +83,7 @@ class Register extends React.Component {
             </fieldset>
             <div className="">
               <input
-                onClick={() => onRouteChange("home")}
+                onClick={onSubmitSignIn}
                 className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib"
                 type="submit"
                 value="Register"
